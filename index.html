@@ -34,14 +34,6 @@
             background-color: #B68C5A;
         }
 
-        .banner-bg-img{
-           background-image: url(assets/images/banner.png);
-           background-size: cover;
-           background-repeat: no-repeat;
-           margin-top: 55px;
-           height: 550px;
-        }
-
         .frame-size{
             width: 45px;
         }
@@ -87,15 +79,22 @@
         </nav>
 
         <!-- banner section start-->
-        <div class="banner-bg-img">
-            <div class="p-5"></div>
-            <h1 class="basic-font-style text-white text-center pt-5">We Provide Effective</h1>
-            <h1 class="basic-font-style text-white text-center pt-2">Legal Solutions</h1>
-            <p class="basic-font-style2 text-white text-center p-4  ps-5 pe-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        <div id="carouselExampleSlidesOnly" class="carousel mt-5" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/images/banner.png" class="d-block w-100" alt="...">
 
-            <div class="d-flex justify-content-center mt-5 pb-5">
-                <input class="me-3 me-sm-5 p-2 ps-3 pe-3 pe-sm-5 rounded-3" type="text" placeholder="Search your services">
-                <button class="btn btn-outline-secondary basic-bg-color text-white fw-bolder ps-4 pe-4" type="submit">Search</button>
+                    <div class="carousel-caption">
+                        <h1 class="basic-font-style text-white text-center pt-md-2 pt-lg-5">We Provide Effective</h1>
+                        <h1 class="basic-font-style text-white text-center pt-lg-2">Legal Solutions</h1>
+                        <p class="d-none d-md-block basic-font-style2 text-white text-center ps-5 pe-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+
+                        <div class="d-none d-md-flex justify-content-center mt-lg-5 pb-lg-5">
+                            <input class="me-3 me-sm-5 p-2 ps-3 pe-3 pe-sm-5 rounded-3" type="text" placeholder="Search your services">
+                            <button class="btn btn-outline-secondary basic-bg-color text-white fw-bolder ps-4 pe-4" type="submit">Search</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- banner section end-->
